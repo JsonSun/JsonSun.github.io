@@ -1,5 +1,5 @@
-title:            Site Title
-description:      Site description for the metas.
+title:            Suntong's blog
+description:      Something is important.
 logo:             omikron.png
 disqus_shortname: shortname
 # Assign a default image for your site's header and footer
@@ -42,9 +42,9 @@ jekyll-archives:
 
 # Owner/author information
 author:
-  name:           Your Name
+  name:           Sun tong
   picture:        your-photo.jpg
-  email:          your@email.com
+  email:          jsonsuntong@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Some Details about yourself
   # Social networking links used in footer. Update and remove as you like.
