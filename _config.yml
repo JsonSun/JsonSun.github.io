@@ -41,7 +41,7 @@ jekyll-archives:
     category: '/archive/category/:name/'
 
 # Owner/author information
-author:
+author: Sun tong
   name:           Sun tong
   picture:        your-photo.jpg
   email:          jsonsuntong@gmail.com
@@ -52,10 +52,10 @@ author:
   facebook:
   github:
   linkedin:
-  instagram:
+  weixin:     "pili000"
   tumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "http://plus.google.com/123123123123132123"
+  weibo:    "http://weibo.com/2936487114/"
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
