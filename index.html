@@ -1,8 +1,8 @@
 ---
 layout: home
 title: Latest Posts
-description: "Your personal blog."
-headline: Your Headline
+description: "My blog."
+headline: 1973
 tags: [tags]
 ---
 
@@ -24,29 +24,7 @@ tags: [tags]
 			<h2 class="post-title text-center super lighter">
 				<a href="{{ site.url }}{{ post.url }}"><i class="fa fa-quote-left"></i> {{ post.excerpt | strip_html }}</a>
 	        </h2>
-	        <p class="light small text-center">
-	        	Share this Quote
-	        </p>
-	        <ul class="social-mini text-center">
-	        	<li>
-	            	<a href="https://twitter.com/intent/tweet?text=&quot;{{ post.title }}&quot;%20{{ site.url }}{{ post.url }}%20via%20&#64;{{ site.author.twitter }}"
-	                	onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip" title="Share on Twitter">
-	                    <i class="fa fa-twitter"></i>
-	                </a>
-	            </li>
-	            <li>
-	            	<a  href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ post.url }}"
-	                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" data-toggle="tooltip" title="Share on Facebook">
-	                    <i class="fa fa-facebook"></i>
-	                </a>
-	            </li>
-	            <li>
-	                <a href="https://plus.google.com/share?url={{ site.url }}{{ post.url }}"
-	                    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" data-toggle="tooltip" title="Share on Google plus">
-	                        <i class="fa fa-google-plus"></i>
-	                </a>
-	            </li>
-	        </ul>
+	 
 			<div class="post-body bordered-bottom text-center">
 			{% if post.description %}
 				<a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link btn btn-danger btn-large">
@@ -73,26 +51,7 @@ tags: [tags]
 			<p class="light small text-center">
 				Share this Status
 			</p>
-			<ul class="social-mini text-center">
-				<li>
-					<a href="https://twitter.com/intent/tweet?text=&quot;{{ post.title }}&quot;%20{{ site.url }}{{ post.url }}%20via%20&#64;{{ site.author.twitter }}"
-						onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip" title="Share on Twitter">
-						<i class="fa fa-twitter"></i>
-					</a>
-				</li>
-				<li>
-					<a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ post.url }}" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"
-						data-toggle="tooltip" title="Share on Facebook">
-						<i class="fa fa-facebook"></i>
-					</a>
-				</li>
-				<li>
-					<a href="https://plus.google.com/share?url={{ site.url }}{{ post.url }}" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"
-						data-toggle="tooltip" title="Share on Google plus">
-						<i class="fa fa-google-plus"></i>
-					</a>
-				</li>
-			</ul>
+			
 			<div class="post-info text-center small">
 				Status posted @
 				<time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time>
