@@ -2,7 +2,7 @@ title:            Suntong's blog
 description:      I Was Growing Fast.
 logo:             logo.png
 disqus_shortname: shortname
-# Assign a default image for your site's header and footer
+# 为站点的页眉和页脚分配一个默认图像。
 default_bg:       default_bg.jpg
 search:           true
 share:            false
@@ -10,11 +10,13 @@ share:            false
 # 读取时间是一个计算器，提供基于字数的后读取时间。 建议使用。
 readtime:         false
 # Turn on or off the fin animations in the header and footer
+# 在页眉和页脚上打开或关闭fin动画。
 triangleheader:	  true
 animated_fins:    true
-# Specify the fin color in RGB value
+# Specify the fin color in RGB value 在RGB值中指定fin颜色。
 fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
+# 将url更改为您的域。在本地工作时，离开localhost服务器或空白。
 url:          http://suntong.me       
 # Gems used
 gems:
@@ -47,7 +49,7 @@ author: Sun tong
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Every day is a new beginning.
   # Social networking links used in footer. Update and remove as you like.
-  github:
+  github: JsonSun
 # Links to include in top navigation
 # For external links add external: true
 links:

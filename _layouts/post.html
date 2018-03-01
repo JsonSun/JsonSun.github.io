@@ -98,30 +98,14 @@
                             {% endfor %}
                                 </span>
                             
-                            {% if site.readtime %}&nbsp;
-                                <span class="post-tags"><i class="fa fa-clock-o"></i>&nbsp;
-
-                            {% if readtime > 1 and readtime < 1.5 %}
-                                    1 minute read
-                            {% endif %}
-
-                            {% if readtime > 1.5 %}
-                                    <span class="time">{{ readtime }}</span> minutes read
-                            {% endif %}
-                                
-                            {% if readtime < 1 %}
-                                    Less than 1 minute read
-                            {% endif %}
-
-                                </span>
-                            {% endif %}
+                            
                             </div>
 
                     </header>
 
                     <div class="post-body bordered-bottom" itemprop="description">
                     {% if page.video %}
-                        {% assign video_embed = page.video | remove:'https://www.youtube.com/watch?v=' %}
+                        {% assign video_embed = page.video | remove:'https://www.youku.com/watch?v=' %}
                         <iframe width="940" height="529" src="//www.youtube.com/embed/{{ video_embed }}?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe>
                     {% endif %}
 
@@ -151,10 +135,6 @@
                     {% endif %}
 
                         {% include signoff.html %} 
-                        
-                    {% if site.disqus_shortname and page.comments == true %}
-                        <div id="disqus_thread"></div><!-- /#disqus_thread -->
-                    {% endif %}
                     </footer>
 
                 </article>
